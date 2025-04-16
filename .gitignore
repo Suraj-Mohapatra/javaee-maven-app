@@ -1,0 +1,36 @@
+# Maven target directory
+/target/
+
+# IntelliJ IDEA project files
+/.idea/
+/*.iml
+
+# NetBeans project files
+/nbproject/private/
+/nbproject/nbproject.xml
+/nb-configuration.xml
+
+# Eclipse project files
+/.classpath
+/.project
+/.settings/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Compiled class files
+*.class
+
+# Maven-specific files
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
