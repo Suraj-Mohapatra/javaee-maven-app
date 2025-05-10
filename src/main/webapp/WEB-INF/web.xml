@@ -12,7 +12,7 @@
     </servlet-mapping>-->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.ugleagle.controller.LoginServlet</servlet-class>
+        <servlet-class>com.uglyeagle.controller.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>

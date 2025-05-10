@@ -1,4 +1,4 @@
-package com.ugleagle.controller;
+package com.uglyeagle.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;

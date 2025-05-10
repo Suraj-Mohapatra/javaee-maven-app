@@ -1,4 +1,4 @@
-package com.ugleagle.resources;
+package com.uglyeagle.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
