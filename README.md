@@ -1,4 +1,4 @@
-# JavaEE Maven App
+# Welcome to JavaEE Maven App
 
 This is a JavaEE-based Maven project that demonstrates the use of Jakarta EE 10, React, and Babel for building a web application.
 
