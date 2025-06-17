@@ -47,8 +47,8 @@
                 <h1>Hello from JSX in the Browser!</h1>
                 <p>This JSX is compiled by Babel running in the browser.</p>
                 </div> );
-        const root2 = ReactDOM.createRoot(document.getElementById('root3'));
-        root2.render(<App2 />);
+        const root = ReactDOM.createRoot(document.getElementById('root3'));
+        root.render(<App2 />);
     </script>
 
 
