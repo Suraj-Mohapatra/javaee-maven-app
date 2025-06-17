@@ -22,24 +22,34 @@
     <body>
         <div id='root1'></div>
         <div id='root2'></div>
+        <div id='root3'></div>
     </body>
-
+    
     <script>
-        const App = () => React.createElement("h1", null, "this is a heading");
-        const root = ReactDOM.createRoot(document.getElementById('root1'));
+   		const h1 = document.createElement('h1');
+    	h1.textContent = "content of this div is rendered using VanillaJS";
+    	h1.style.color = "red";
+		document.getElementById('root1').appendChild(h1);
+    </script>
+    
+	<!-- Code written as per JS syntax -->
+    <script>
+    const style = { style: { color: "green" } };
+        const App = () => React.createElement("h1",style,"this is rendered using ReactJS");
+        const root = ReactDOM.createRoot(document.getElementById('root2'));
         root.render(React.createElement(App));
     </script>
-
+    
+	<!-- Code written as per JSX syntax -->
     <script type="text/babel">
         const App2 = () => (
-                <div style={{fontFamily: 'sans-serif', padding: '20px'}}>
+                <div style={{fontFamily: 'sans-serif', padding: '10px', border: '1px solid #ccc', color: 'blue'}}>
                 <h1>Hello from JSX in the Browser!</h1>
                 <p>This JSX is compiled by Babel running in the browser.</p>
                 </div> );
-        const root2 = ReactDOM.createRoot(document.getElementById('root2'));
+        const root2 = ReactDOM.createRoot(document.getElementById('root3'));
         root2.render(<App2 />);
     </script>
 
 
 </html>
-
